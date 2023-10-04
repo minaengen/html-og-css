@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <title>Forside</title>
     </head>
     <body>
@@ -12,14 +13,65 @@
                     <a href="index.html">Logo</a>
                 </span>
                 <ul>
-                    <li><a href="about.html">about</a></li>
-                    <li><a href="#">subscribe</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="#about-section">about</a></li>
+                    <li><a href="subscribe.html">subscribe</a></li>
+                    <li><a href="https://www.google.com">google</a></li>
                 </ul>
             </nav>
             <h1>Hallo world!</h1>
             <p>Slagord</p>
         </header>
+        <main>
+            <section>
+                <h2>Latest news</h2>
+                <article>
+                    <img src="img/cat-8197577_640.jpg" alt="grå katt som koser seg">
+                    <h3>Grå pus</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+                <article>
+                    <img src="img/turtle-8105993_640.jpg" alt="En kun skilpadde som dukker opp i havoverflaten">
+                    <h3>En skilpadde</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a fringilla lectus, at ornare massa.</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+                <article>
+                    <img src="img/willow-warbler-8071472_640.jpg" alt="En liten pippip">
+                    <h3>En liten pippip</h3>
+                    <p>Nulla vel vestibulum velit. Donec nec eleifend dui. Suspendisse nec metus at mi suscipit hendrerit.</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+            </section>
+        </main>
+        <section id="about-section">
+            <div id="pynt">
 
+            </div>
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a fringilla lectus, at ornare massa. Quisque mauris dui, rhoncus sit amet mi id, consequat commodo enim. Aliquam sed dignissim leo. Cras ornare felis turpis, et ornare eros interdum in. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </section>
+        <section id="subscribe">
+            <h3>Subscribe</h3>
+            <form>
+                <label for="email-signup">Email for newsletter sign-up</label>
+                <input type="text" id="email-signup">
+                <input type="submit" value="Sign up">
+            </form>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">subscribe</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <ul id="social-icons">
+                <li>f</li>
+                <li>i</li>
+                <li>p</li>
+            </ul>
+        </footer>
     </body>
 </html>
